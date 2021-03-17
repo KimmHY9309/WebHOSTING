@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="kor">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김학영's 포트폴리오</title>
+    <link href=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+    <script src="./index.js" defer></script>
+</head>
+
+<body style="background-color: rgb(224, 227, 235);">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light position-fixed w-100" style="z-index: 5;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#main-part">KIMS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-part">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#language-skill">Language & stak Skill</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#potpol">Portfolio</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#closing">Closing</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class='position-fixed' style="z-index: 3; margin-top:80vh; margin-left:90vw; font-size: 50px;">
+            <a href="#" style="text-decoration: none;">🔝</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- 첫 화면, 사진 -->
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="z-index: 4;">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./images/winter-4842908_1920.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block"
+                            style="width: 500px; height: 300px; font-size: 40px; margin-bottom: 200px;margin-left: 100px; ">
+                            <!-- <p>안녕하세요</p> -->
+                            <p>SSAFY 'C반' 출신 개발자</p>
+                            <p>김학영입니다.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/cat-5887426_1920.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>보는 눈이 다르다</h5>
+                            <p>남들과 다른 시선으로 세상을 바라보기</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images/woman-5584374_1920.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>보는 눈이 다르다</h5>
+                            <p>남들과 다른 시선으로 세상을 바라보기</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- About-->
+        <section id="about-part" class='pt-5 pb-5 w-50 mx-auto'
+            style="min-height: 100vh; background-color:  rgb(224, 227, 235);">
+            <div class='h1 bg-info p-3 text-white w-100 text-center rounded-pill'>About</div>
+            <div class="card"
+                style="width: 24rem; padding:50px 20px; margin: 0px auto;background-color:  rgb(224, 227, 235); border:1px dotted rgb(168, 168, 134)">
+                <img src="./images/man-320276_1920.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title mt-2">Hakyoung Kim</h5>
+                    <p class="card-text mt-4">Front-end, Back-end, Full-stack 개발자를 향해 나아갑니다.</p>
+                    <p class="card-text">🌑young126f@gmail.com</p>
+                    <p class="card-text">🌓인천광역시 미추홀구 거주</p>
+                    <p class="card-text">🌕010 8526 9757</p>
+                    <a href="https://github.com/KimmHY9309" target="_blank" class="btn btn-primary">Gihub</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- language & stack -->
+        <section style="background-color: rgb(204, 217, 233); padding-top: 20px; padding-bottom: 20px;">
+            <div id='language-skill' class='pt-5 w-50 mx-auto'">
+                <div class='h1 bg-info p-4 text-white w-100 text-center rounded-pill'>Language Skill</div>
+                <div class=" progress mt-5" style="height: 50px;">
+                <span style="color:rgb(59, 34, 34); font-size:30px">
+                    <strong>C++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong>
+                </span>
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 75%" aria-valuenow="10"
+                    aria-valuemin="0" aria-valuemax="100">
+                </div>
+            </div>
+            <div class="progress mt-4" style="height: 50px;">
+                <span style="color:rgb(59, 34, 34); font-size:30px">
+                    <strong>Python&nbsp;&nbsp;&nbsp;&nbsp;</strong>
+                </span>
+                <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 65%"
+                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                </div>
+            </div>
+            <div class="progress mt-4" style="height: 50px;">
+                <span style="color:rgb(59, 34, 34); font-size:30px"><strong>javascript&nbsp;</strong></span>
+                <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%"
+                    aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="progress mt-4" style="height: 50px;">
+                <span
+                    style="color:rgb(112, 35, 35); font-size:30px"><strong>kotlin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></span>
+                <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 1%"
+                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            </div>
+            <div id='stack-skill' class='pt-5 w-50 mx-auto'>
+                <div class='h1 bg-info p-4 text-white w-100 text-center rounded-pill'>Stack Skill</div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">분야</th>
+                            <th scope="col">분류</th>
+                            <th scope="col">스택</th>
+                            <th scope="col">Level</th>
+                            <th scope="col">근거</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" rowspan="10">WEB</th>
+                            <td scope='row' rowspan="4">Front-end</td>
+                            <td>HTML/CSS</td>
+                            <td>⭐⭐⭐</td>
+                            <td>웹페이지 클론 코딩 가능</td>
+                        </tr>
+                        <tr>
+                            <td>Bootstrap</td>
+                            <td>⭐⭐</td>
+                            <td>bootstrap 5 기준, Document 참고하며 개발 가능</td>
+                        </tr>
+                        <tr>
+                            <td>Vue.js</td>
+                            <td>😅</td>
+                            <td>학습예정</td>
+                        </tr>
+                        <tr>
+                            <td>react.js</td>
+                            <td>😅</td>
+                            <td>학습예정</td>
+                        </tr>
+                        <tr>
+                            <td scope='row' rowspan="3">DB</td>
+                            <td>Node.js</td>
+                            <td>😅</td>
+                            <td>학습예정</td>
+                        </tr>
+                        <tr>
+                            <td>MySQL</td>
+                            <td>😅</td>
+                            <td>학습예정</td>
+                        </tr>
+                        <tr>
+                            <td>Mongo DB</td>
+                            <td>😅</td>
+                            <td>학습예정</td>
+                        </tr>
+                        <tr>
+                            <td scope='row' rowspan="3">Back-end</td>
+                            <td>AWS</td>
+                            <td>😅</td>
+                            <td>학습예정</td>
+                        </tr>
+                        <tr>
+                            <td>Nginx</td>
+                            <td>😅</td>
+                            <td>학습예정</td>
+                        </tr>
+                        <tr>
+                            <td>Jenkins</td>
+                            <td>😅</td>
+                            <td>학습예정</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" rowspan="12">Embedded</th>
+                            <td scope='row' rowspan="3">Firmware</td>
+                            <td>ARM</td>
+                            <td>😅</td>
+                            <td>학습예정</td>
+                        </tr>
+                        <tr>
+                            <td>Raspiberry pi</td>
+                            <td>😅</td>
+                            <td>학습예정</td>
+                        </tr>
+                        <tr>
+                            <td>NUCLEO-F103RB</td>
+                            <td>😅</td>
+                            <td>학습예정</td>
+                        </tr>
+                        <tr>
+                            <td>RTOS</td>
+                            <td>FreeRTOS</td>
+                            <td>😅</td>
+                            <td>학습예정</td>
+                        </tr>
+                        <tr>
+                            <td scope='row' rowspan="3">장비</td>
+                            <td>회로도 이해</td>
+                            <td>😅</td>
+                            <td>학습예정</td>
+                        </tr>
+                        <tr>
+                            <td>기본계측</td>
+                            <td>⭐⭐⭐</td>
+                            <td>멀티미터 / 오실로스코프 경험</td>
+                        </tr>
+                        <tr>
+                            <td>Debugger</td>
+                            <td>😅</td>
+                            <td>학습예정</td>
+                        </tr>
+                        <tr>
+                            <td scope='row' rowspan="2">Device Driver</td>
+                            <td>Linux Kernel</td>
+                            <td>😅</td>
+                            <td>학습예정</td>
+                        </tr>
+                        <tr>
+                            <td>Linux Device Driver</td>
+                            <td>😅</td>
+                            <td>학습예정</td>
+                        </tr>
+                        <tr>
+                            <td>Embedded UI</td>
+                            <td>Qt</td>
+                            <td>😅</td>
+                            <td>학습예정</td>
+                        </tr>
+                        <tr>
+                            <td scope='row' rowspan="2">IOT</td>
+                            <td>connectivity</td>
+                            <td>😅</td>
+                            <td>학습예정</td>
+                        </tr>
+                        <tr>
+                            <td>Security</td>
+                            <td>😅</td>
+                            <td>학습예정</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+        <section id='potpol' class='pt-5 w-50 mx-auto' style="min-height:100vh;">
+            <div class='h1 bg-info p-4 text-white w-100 text-center rounded-pill'>Portfolio</div>
+            <div style="display: flex;flex-wrap: wrap;">
+                <div class="row g-0 position-relative w-50">
+                    <div class="col-md-6 mb-md-0 p-md-4">
+                        <img src="./images/letter-145995_640.png" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-6 p-4 ps-md-0">
+                        <h5 class="mt-0">프로젝트</h5>
+                        <p>앞으로 진행할 프로젝트</p>
+                        <a href="#" class="stretched-link">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="row g-0 position-relative w-50">
+                    <div class="col-md-6 mb-md-0 p-md-4">
+                        <img src="./images/letter-145996_640.png" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-6 p-4 ps-md-0">
+                        <h5 class="mt-0">프로젝트</h5>
+                        <p>앞으로 진행할 프로젝트</p>
+                        <a href="#" class="stretched-link">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="row g-0 position-relative w-50">
+                    <div class="col-md-6 mb-md-0 p-md-4">
+                        <img src="./images/letter-146042_640.png" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-6 p-4 ps-md-0">
+                        <h5 class="mt-0">프로젝트</h5>
+                        <p>앞으로 진행할 프로젝트</p>
+                        <a href="#" class="stretched-link">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="row g-0 position-relative w-50">
+                    <div class="col-md-6 mb-md-0 p-md-4">
+                        <img src="./images/letter-145998_640.png" class="w-100" alt="...">
+                    </div>
+                    <div class="col-md-6 p-4 ps-md-0">
+                        <h5 class="mt-0">프로젝트</h5>
+                        <p>앞으로 진행할 프로젝트</p>
+                        <a href="#" class="stretched-link">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- closing -->
+        <section style="background-color: rgb(204, 217, 233); padding-top: 20px; padding-bottom: 20px;">
+            <div id='closing' class="card-img-top w-50 pt-5 mt-5 mx-auto"
+                style="min-height: 100vh;background-color:  rgb(204, 217, 233);">
+                <div class='h1 bg-info p-4 text-white w-100 text-center rounded-pill'>closing</div>
+                <div class="card"
+                    style="width: 100%; display: flex; flex-direction: row; align-items: center;background-color:  rgb(204, 217, 233); border: 0px;">
+                    <img src="./images/bamboo-159809_640.png" class="card-img-top" alt="..."
+                        style="width: 30%;">
+                    <div class="card-body">
+                        <p class="card-text">대나무의 한 종류인 '모소 대나무'는 씨앗에서 싹이 나오고 4년동안 단
+                            '3cm'만 자랍니다. 그리고 5년째 되는 해 부터 하루에 30cm이상 성장하며
+                            6주만에 15M를 넘기게 되죠. 처음 4년동안 겉으로 보기에 아무 일도 일어나지 않은 것 같지만
+                            모소 대나무는 뿌리를 아주 깊이 깊이 내리며 성장할 시기를 기다리고 있었던 것입니다.
+                        </p>
+                        <p>
+                            시작이 느린것처럼 보여도, 아주 깊은 곳까지 뿌리를 내리고 있습니다.
+                            쑥쑥 자랄 수 있게.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer class='bg-dark text-white text-center mb-3 p-2 fs-4'>
+            &copy; &copysr; &cross; 2021 김학영 All right reserved
+        </footer>
+    </main>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+<!--<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected --><!--
+  </body>
+</html>
+-->
